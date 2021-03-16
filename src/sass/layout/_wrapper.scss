@@ -1,0 +1,14 @@
+// Wrapper
+
+.wrapper {
+    padding: 5em 0 3em 0;
+    
+    &.style1 {
+        background-color: #fff;
+    }
+
+    &.style2 {
+        background-color: #333;
+        color: #fff;
+    }
+}
