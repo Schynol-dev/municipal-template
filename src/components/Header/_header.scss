@@ -2,14 +2,14 @@
     padding-top: 0.25em;
     position: absolute;
     width: 100%;
-    background-color: rgba(51, 51, 51, 1);
+    background-color: rgba(51, 51, 51, 0.8);
+    z-index: 10;
 }
 
 #navigation {
     cursor: default;
     display: flex;
     justify-content: space-evenly;
-    z-index: 1;
 
     h1 {
         color: #c0c0c0;
