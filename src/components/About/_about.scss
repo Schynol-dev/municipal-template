@@ -8,3 +8,50 @@
         width: 60%;
     }
 }
+
+.news {
+    
+}
+
+.posts {
+    display: flex;
+    justify-content: space-between;
+
+    .post {
+        height: 15em;
+        width: 33%;
+
+        &__first {
+            background-image: url("../../assets/images/news-one.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+
+        &__second {
+            background-image: url("../../assets/images/news-two.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+
+        &__third {
+            background-image: url("../../assets/images/news-three.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100%;
+        }
+
+        h3 {
+            padding: 12em 0.25em 0;
+        }
+
+        h4 {
+            padding: 0 0.25em;
+        }
+    }  
+}
+

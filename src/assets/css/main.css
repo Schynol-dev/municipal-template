@@ -1951,4 +1951,50 @@ blockquote {
 .welcome p {
   width: 60%;
 }
+
+.posts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.posts .post {
+  height: 15em;
+  width: 33%;
+}
+
+.posts .post__first {
+  background-image: url("../../assets/images/news-one.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.posts .post__second {
+  background-image: url("../../assets/images/news-two.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.posts .post__third {
+  background-image: url("../../assets/images/news-three.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+.posts .post h3 {
+  padding: 12em 0.25em 0;
+}
+
+.posts .post h4 {
+  padding: 0 0.25em;
+}
 /*# sourceMappingURL=main.css.map */
