@@ -1887,7 +1887,8 @@ blockquote {
 }
 
 #home {
-  background-image: url("../images/background-village.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.25)), to(rgba(0, 0, 0, 0.25))), url("../images/background-village.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/background-village.jpg");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1929,6 +1930,18 @@ blockquote {
   border-color: #1c1c1c;
 }
 
+.social-media {
+  position: absolute;
+  width: inherit;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
 .social-media-icon {
   position: relative;
   background-color: #fff;
@@ -1966,7 +1979,8 @@ blockquote {
 }
 
 .posts .post__first {
-  background-image: url("../../assets/images/news-one.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../../assets/images/news-one.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/images/news-one.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1974,7 +1988,8 @@ blockquote {
 }
 
 .posts .post__second {
-  background-image: url("../../assets/images/news-two.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../../assets/images/news-two.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../../assets/images/news-two.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1982,7 +1997,8 @@ blockquote {
 }
 
 .posts .post__third {
-  background-image: url("../../assets/images/news-three.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0))), url("../../assets/images/news-three.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../../assets/images/news-three.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

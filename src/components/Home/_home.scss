@@ -1,5 +1,5 @@
 #home {
-    background-image: url('../images/background-village.jpg');
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url('../images/background-village.jpg');
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
@@ -38,6 +38,11 @@
 }
 
 .social-media {
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
 
     &-icon {
         position: relative;

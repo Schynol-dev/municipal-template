@@ -16,8 +16,10 @@ function About() {
                     <div className="posts">
                         <div className="post">
                             <div className="post__first">
-                                <h3>News Header</h3>
-                                <h4>Type of News</h4>    
+                                <div className="text-overlay">
+                                    <h3>News Header</h3>
+                                    <h4>Type of News</h4>
+                                </div>   
                             </div>
                         </div>
                         <div className="post">

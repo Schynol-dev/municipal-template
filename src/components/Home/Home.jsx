@@ -9,7 +9,6 @@ function Home() {
 
     return (
         <section id="home">
-            {/* <div className="overlay"></div> */}
             <div className="container">
                 <div className="search-box">
                     <h2>What are you looking for?</h2>
