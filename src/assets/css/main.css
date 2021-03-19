@@ -173,7 +173,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 0.1em;
   margin: 0 0 1em 0;
-  text-transform: uppercase;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1996,5 +1995,36 @@ blockquote {
 
 .posts .post h4 {
   padding: 0 0.25em;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-links p {
+  font-weight: 600;
+}
+
+.footer-links a {
+  cursor: pointer;
+  color: #c0c0c0;
+  text-decoration: none;
+  border: 0;
+  display: block;
+  padding: 0.15em 0;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 2.5em;
 }
 /*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+        font-weight: 600;
+    }
+
+    a {
+        cursor: pointer;
+        color: #c0c0c0;
+        text-decoration: none;
+        border: 0;
+        display: block;
+        padding: 0.15em 0;
+
+       &:hover {
+           color: #fff;
+       } 
+    }
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2.5em;
+}
